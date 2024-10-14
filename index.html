@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TRAVEL WEBSITE</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Explore the World with TravelEase</h1>
+        <p>Your adventure starts here. Find flights, hotels, and vacation packages.</p>
+        <form id="searchForm">
+            <input type="text" placeholder="Search your destination..." id="destinationInput">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="paris.jpeg" alt="Paris">
+                <h3>Paris</h3>
+            </div>
+            <div class="destination">
+                <img src="newyyork.jpeg" alt="New York">
+                <h3>New York</h3>
+            </div>
+            <div class="destination">
+                <img src="tokyo.jpeg" alt="Tokyo">
+                <h3>Tokyo</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking">
+        <h2>Book Your Travel</h2>
+        <form id="bookingForm">
+            <input type="text" placeholder="Flight destination" required>
+            <input type="text" placeholder="Hotel destination" required>
+            <input type="date" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TravelWebsite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
